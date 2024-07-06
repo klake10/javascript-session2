@@ -13,8 +13,8 @@ console.log("New Price: " + price)
 
 
 const response = prompt("Books vs Movies")
-if (response === "books") {
-        console.log("Books")
+if (response === "books" || response === "Books") {
+        console.log("📚")
 } else {
-    console.log("Films")
+    console.log("🍿")
 }
